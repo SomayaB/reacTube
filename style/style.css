@@ -24,6 +24,13 @@ body {
   margin-bottom: 10px;
 }
 
+.logo {
+  float: left;
+  margin: -2px -65px 20px 15px;
+  position: relative;
+  height: 37px;
+}
+
 .search-bar {
   text-align: center;
 }
@@ -32,8 +39,7 @@ body {
   width: 75%;
 }
 
-
-/* header */
+/* main video */
 
 .video-item img {
   mad-width: 64px;
@@ -50,4 +56,21 @@ body {
 .video-detail-title {
   font-weight: bold;
   padding-bottom: 10px;
+}
+
+/* related videos */
+
+.related-videos-title {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
 }
