@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <footer className="footer-distributed">
           <div className="footer-right">
-            <a href="#">View code <i className="fa fa-github fa-2x"></i></a>
+            <a href="https://github.com/SomayaB/reacTube">View code <i className="fa fa-github fa-2x"></i></a>
           </div>
           <div className="footer-left">
             <p className="footer-description">
