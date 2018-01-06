@@ -13,3 +13,21 @@ html, body {
 body {
   background-color: #f1f1f1 !important;
 }
+
+/* header */
+
+.header {
+  background-color: #fff;
+  height: 70px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+}
