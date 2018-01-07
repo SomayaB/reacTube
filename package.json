@@ -4,8 +4,9 @@
   "description": "A Youtube clone built in ReactJS.",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "start:dev": "nodemon ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "node server.js",
+    "postinstall": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,15 +27,16 @@
     "jquery": "^3.2.1",
     "jsdom": "^11.5.1",
     "nodemon": "^1.14.8",
-    "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "express": "^4.16.2",
     "lodash": "^4.17.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
+    "webpack": "^1.12.9",
     "youtube-api-search": "0.0.5"
   }
 }
