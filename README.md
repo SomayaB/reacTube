@@ -6,6 +6,7 @@ A [Youtube](https://www.youtube.com/) clone built in ReactJS.
 - Implemented YouTube API endpoints that allow users to search for and have full interaction with videos.
 - Enforced solid build configuration standards using Webpack and Babel.
 
+![alt text](public/reactube_screenshot.png)
 
 [Link to Live Site](https://youreact.herokuapp.com/)
 
