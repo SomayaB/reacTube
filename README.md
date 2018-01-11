@@ -1,6 +1,6 @@
 # ReacTube
 
-A Youtube clone built in ReactJS.
+A [Youtube](https://www.youtube.com/) clone built in ReactJS.
 
 - Fast client-side rendering app that automatically re-renders new content with every keystroke.
 - Implemented YouTube API endpoints that allow users to search for and have full interaction with videos.
